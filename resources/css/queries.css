@@ -1,0 +1,95 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+
+    /*base font size*/
+     :root {
+        font-size: 18px;
+    }
+
+    /*profile sidebar*/
+    .profile-sidebar .profile-pic,
+    .overlay {
+        width: 150px;
+        height: 150px;
+    }
+
+    /*all Contacts*/
+    .chats .text-muted img {
+        width: 14px;
+        height: 14px;
+    }
+
+    /*single chat section*/
+    .chat i {
+        visibility: visible;
+        font-size: 1.2rem;
+    }
+
+    .chat .details {
+        font-size: 0.6rem;
+    }
+
+    .chat-section .message {
+        padding-right: 70px;
+    }
+
+    .chat-section .self,
+    .chat-section .other {
+        font-size: 0.7rem;
+    }
+
+    .chat-section .text-muted {
+        font-size: 0.5rem;
+    }
+
+    .chat-section .text-muted img {
+        width: 14px;
+        height: 14px;
+    }
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 768px) {
+    /*base font size*/
+     :root {
+        font-size: 20px;
+    }
+
+    /*chat section */
+    .chat i {
+        visibility: visible;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    /*base font size*/
+     :root {
+        font-size: 18px;
+    }
+
+    /*all contacts */
+    .chats .text-muted img {
+        width: 14px;
+        height: 14px;
+    }
+
+    /*profile bar*/
+    .profile-sidebar .profile-pic,
+    .overlay {
+        width: 150px;
+        height: 150px;
+    }
+}
