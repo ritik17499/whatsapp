@@ -1,25 +1,7 @@
-/*****************************************************/
-
-
-/********** color: #007bff; color: #343a40; **********/
-
-
-/********** prefixer:https://autoprefixer.github.io/ **********/
-
-
-/*********************************************/
-
-
-/*********************************************/
-
-
-/********** Basic setting **********/
-
-
-/*********************************************/
 
 :root {
     font-size: 20px;
+}
 }
 
 *:focus {
@@ -47,17 +29,6 @@ body {
 
 
 
-
-
-
-/*********************************************/
-
-
-/********** Sidebar **********/
-
-
-/*********************************************/
-
 .sidebar .profile {
     height: 10vh;
 }
@@ -72,13 +43,6 @@ body {
 
 
 
-/*********************************************/
-
-
-/********** Chats **********/
-
-
-/*********************************************/
 
 .chats .position-absolute {
     right: 5%;
@@ -125,17 +89,6 @@ body {
 }
 
 
-
-
-
-/*********************************************/
-
-
-/********** profile sidebar **********/
-
-
-/*********************************************/
-
 .profile-sidebar {
     background: #f1f1f1;
     overflow-y: auto;
@@ -155,11 +108,6 @@ body {
     height: 200px;
 }
 
-
-
-
-
-/*Fade in Overlay effect for profile pic*/
 
 .pic-container {
     width: 50%;
@@ -194,10 +142,6 @@ body {
 }
 
 
-
-
-/*name and about in profile bar*/
-
 .text i {
     font-size: 2rem;
 }
@@ -217,22 +161,8 @@ body {
     font-size: 0.68rem;
 }
 
-
-
-
-
-
-
-/*********************************************/
-
-
-/********** Individual Chat Area **********/
-
-
-/*********************************************/
-
 .chat {
-    background: url('https://res.cloudinary.com/gscode/image/upload/v1523622452/background-whatsapp.png') repeat;
+    background-image: url('https://i.imgur.com/TnNwdvV.jpg') ;
 }
 
 .chat i {
@@ -254,11 +184,6 @@ body {
     overflow-y: auto;
     height: 90vh;
 }
-
-
-
-
-/*message*/
 
 .chat-section .self,
 .chat-section .other {
@@ -290,11 +215,6 @@ body {
     right: 2%;
 }
 
-
-
-
-/*triangle shape*/
-
 .triangle-left {
     border-left: 9px solid transparent;
     border-top: 9px solid #fff;
@@ -313,10 +233,6 @@ body {
     margin: 5px 0;
 }
 
-
-
-
-/*main date*/
 
 .chat-section .date {
 
